@@ -1,11 +1,11 @@
-body{
-	font-family:Verdana, Geneva, Tahoma, sans-serif;
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
 	display: flex;
 	flex-direction: column;
-	background-color: #FF8380;
+	background-color: #ff8380;
 }
 
 .infoField {
@@ -19,7 +19,7 @@ body{
 #survey-main {
 	width: 500px;
 	margin: 0 auto;
-	background-color: #FF8380;
+	background-color: #ff8380;
 	color: #ffffff;
 }
 
@@ -30,26 +30,25 @@ body{
 	text-align: center;
 }
 
-
 #survey-heading,
 #userinfo-container,
 #subscription-container,
 #agree-container,
-#submit-container{
-	background-color: #666BFF;
+#submit-container {
+	background-color: #666bff;
 	width: 500px;
-	margin:10px auto;
+	margin: 10px auto;
 	padding: 10px;
 	box-shadow: 1px 1px 10px #000000;
 }
 
 #ads,
-#eula{
+#eula {
 	vertical-align: middle;
 }
 
 #ads-label,
-#eula-label{
+#eula-label {
 	font-size: 8pt;
 }
 
@@ -65,35 +64,35 @@ body{
 	width: 62%;
 }
 
-#sub-description{
+#sub-description {
 	font-size: 18pt;
 	margin-top: 8px;
 }
 
-#description{
+#description {
 	font-size: 14pt;
 }
 
-#msg-description{
+#msg-description {
 	font-size: 18pt;
 }
 
-#title{
+#title {
 	font-size: 28pt;
 }
 
-[type="radio"]{
+[type="radio"] {
 	margin: 5px 0;
 }
 
-#commentbox{
+#commentbox {
 	resize: none;
 	height: 150px;
 	border-radius: 10px;
 	padding: 10px;
 }
 
-#submit{
+#submit {
 	border-radius: 8px;
 	margin: 4px 0;
 	height: 30px;
