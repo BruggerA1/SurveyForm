@@ -1,0 +1,100 @@
+body{
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	background-color: #FF8380;
+}
+
+.infoField {
+	text-align: center;
+	width: 60%;
+	margin: 4px;
+	padding: 6px;
+	border-radius: 10px;
+}
+
+#survey-main {
+	width: 500px;
+	margin: 0 auto;
+	background-color: #FF8380;
+	color: #ffffff;
+}
+
+#sub-description,
+#msg-description,
+#survey-heading,
+#userinfo-container {
+	text-align: center;
+}
+
+
+#survey-heading,
+#userinfo-container,
+#subscription-container,
+#agree-container,
+#submit-container{
+	background-color: #666BFF;
+	width: 500px;
+	margin:10px auto;
+	padding: 10px;
+	box-shadow: 1px 1px 10px #000000;
+}
+
+#ads,
+#eula{
+	vertical-align: middle;
+}
+
+#ads-label,
+#eula-label{
+	font-size: 8pt;
+}
+
+#name-label,
+#email-label,
+#number-label,
+#species-label {
+	padding: 4px;
+}
+
+#dropdown {
+	text-align-last: center;
+	width: 62%;
+}
+
+#sub-description{
+	font-size: 18pt;
+	margin-top: 8px;
+}
+
+#description{
+	font-size: 14pt;
+}
+
+#msg-description{
+	font-size: 18pt;
+}
+
+#title{
+	font-size: 28pt;
+}
+
+[type="radio"]{
+	margin: 5px 0;
+}
+
+#commentbox{
+	resize: none;
+	height: 150px;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+#submit{
+	border-radius: 8px;
+	margin: 4px 0;
+	height: 30px;
+}

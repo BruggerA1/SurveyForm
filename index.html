@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Lord Winston Sign-Up Sheet</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body id="survey-main">
+		<div id="survey-container" class="container">
+			<div id="survey-heading">
+				<h1 id="title">Lord Winston's World</h1>
+				<p id="description">Sign-Up to Lord Winston's Bi-Weekly Newsletter</p>
+			</div>
+			<form action="" id="survey-form">
+				<div id="userinfo-container" class="container">
+					<label id="name-label">
+						Full Name
+						<br />
+						<input
+							type="text"
+							required
+							class="infoField"
+							name="nameField"
+							id="name"
+							placeholder="Beeper Boppadopolis"
+						/>
+					</label>
+					<label id="email-label">
+						Email Address
+						<br />
+						<input
+							type="email"
+							required
+							class="infoField"
+							name="emailField"
+							id="email"
+							placeholder="LordWinston@Harvard.edu"
+						/>
+					</label>
+					<label id="number-label">
+						Age
+						<br />
+						<input
+							type="number"
+							required
+							class="infoField"
+							name="numberField"
+							id="number"
+							min="0"
+							max="99"
+							placeholder="(18+ for Adult Contet)"
+						/>
+					</label>
+					<label id="species-label">
+						Species
+						<br />
+						<select class="infoField" id="dropdown">
+							<option value="" disabled selected>Human / Dog / Other</option>
+							<option value="human">Human</option>
+							<option value="dog">Dog</option>
+							<option value="other">Other</option>
+							<option value="notsure">I'm not sure</option>
+						</select>
+					</label>
+				</div>
+				<div id="subscription-container" class="container">
+					<p id="sub-description"><strong>Choose Your Subscription</strong></p>
+					<label for="free">
+						<input
+							type="radio"
+							name="free-standard-premium"
+							id="free"
+							value="free"
+						/>
+						Free ($0.00)
+					</label>
+					<label for="standard">
+						<input
+							type="radio"
+							name="free-standard-premium"
+							id="standard"
+							value="standard"
+						/>
+						Standard ($4.99/Monthly)
+					</label>
+					<label for="premium">
+						<input
+							type="radio"
+							name="free-standard-premium"
+							id="premium"
+							value="premium"
+						/>
+						Premium ($8.99/Monthly)
+					</label>
+				</div>
+				<div id="agree-container" class="container">
+						<label for="ads" id="ads-label">
+							<input type="checkbox" name="ads" id="ads" value="ads" />
+							Receive exclusive limited-time offers on products from
+							<em>Winston's Gentleman Collection</em>
+						</label>
+						<label for="eula" id="eula-label">
+							<input type="checkbox" name="eula" id="eula" value="eula" />
+							I Agree to the terms of this subscription.
+						</label>
+				</div>
+				<div id="submit-container" class="container">
+					<p id="msg-description"><strong>Send Winston A Special Message!</strong></p>
+					<textarea
+						name="commentbox"
+						id="commentbox"
+						rows="5"
+						placeholder="Enter your message for Winston here."
+					></textarea>
+					<input type="submit" id="submit" value="Submit" />
+				</div>
+			</form>
+		</div>
+	</body>
+</html>
